@@ -1,0 +1,62 @@
+/* * {
+    font-family: Calibri, sans-serif;
+} */
+
+body {
+    font-family: Calibri, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h3 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#chat-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-height: 700px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.own-message {
+    background-color: lightcyan;
+    /*background-color: #d3edff;*/
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#chat-form {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logout-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>flaskChat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <input type="hidden" id="current-username" value="{{ username }}">
+    <h1>Welcome to flaskChat, {{ username }}!</h1>
+    <h3>Have a fun, and try not to accidentally the whole thing!</h3>
+    <div id="chat-box">
+        <!-- All chat messages go here! -->
+    </div>
+    <form id="chat-form">
+        <input type="text" size="100" id="message" placeholder="Type your message">
+        <button type="submit">Send</button>
+    </form>
+    <button id="logout-btn">Logout</button>
+    <script src="{{ url_for('static', filename='chat_page.js') }}"></script>
+</body>
+</html>
