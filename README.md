@@ -1,2 +1,2 @@
 # flaskChat
-A Flask API to simulate a chatroom.
+Using Flask and Javascript for a web-based chat room!
